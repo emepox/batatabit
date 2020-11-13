@@ -178,7 +178,7 @@ main {
 .main-exchange__tablas {
     display: flex;
     align-items: baseline;
-    overflow-x: scroll;
+    overflow-x: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
     padding: 1rem 0;
@@ -329,10 +329,10 @@ main {
 .features__bloque {
     background-color: var(--black);
     padding: 20px;
-    margin: 10px 20px;
+    margin: 10px 15px;
     width: 90%;
     min-width: 288px;
-    max-width: 350px;
+    max-width: 300px;
     min-height: 150px;
 }
 
@@ -384,7 +384,7 @@ main {
 .main-planes__fichas {
     display: flex;
     height: 316px;
-    overflow-x: scroll;
+    overflow-x: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
@@ -408,7 +408,7 @@ main {
 }
 
 .ficha__titulo {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .ficha__precio {
@@ -417,12 +417,13 @@ main {
 }
 
 .ficha__precio > span {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     vertical-align: 25px;
 }
 
 .ficha__asterisco {
     margin: 10px 0;
+    font-size: 1.3rem;
 }
 
 .ficha__recomendado {
@@ -433,6 +434,7 @@ main {
     top: calc(0% - 12.5px);
     left: calc(50% - 38px);
     color: var(--just-white);
+    font-size: 1.2rem;
 
 }
 
@@ -449,6 +451,10 @@ main {
     border-radius: 3px;
 }
 
+/*
+///// FOOTER
+*/
+
 footer {
     background-color: var(--bitcoin-orange);
 }
@@ -458,6 +464,7 @@ footer {
     padding: 30px;
     justify-content: space-around;
     color: var(--just-white);
+    font-size: 1.4rem;
 }
 
 .footer__social-list,
@@ -467,6 +474,7 @@ footer {
 
 .footer__social-list > ul {
     list-style-type: none;
+    line-height: 2.5rem;
 }
 
 .social__item > a {
